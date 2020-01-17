@@ -1,0 +1,94 @@
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*html*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", Helvetica;
+}
+
+header{
+	background: linear-gradient(rgba(20, 26, 35,0.55),rgba(20, 26, 35, 0.55)),
+				url("../img/bg.jpg") no-repeat center center fixed;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: top;
+    padding: 3px 370px;
+    list-style-type: none;
+    margin-top: 40px;
+    color: rgb(105, 105, 105);
+}
+
+ul li{
+    display: inline-block;}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    padding: 7px 30px;
+    background-color: transparent;
+    border-radius: 20px;
+    text-shadow: black;
+}
+
+ul li a:hover{
+    background-color: transparent;
+    color: #fff;
+    transition: 0.6s ease;
+}
+
+ul li.active a{
+    background-color: transparent;
+    color: #fff;
+}
+.title h1{
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h2{
+    color: #fff;
+    font-size: 40px;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h3{
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h4{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    top: 7%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+}
+
+.title h7{
+    color: #fff;
+    font-size: 13px;
+    position: absolute;
+    top: 98%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
